@@ -1,0 +1,12 @@
+/* 
+affiche une bordure verte si le champs est valide et requis 
+on précise require pour pas avoir des bordure au niveau du checkbox
+*/
+.ng-valid[required]{
+    border-left: 5px solid #42a94b;
+}
+
+/*affiche une bordure rouge pour les élément invalide qui ne sont pas de type form (input, select etc )*/
+.ng-invalid:not(form){
+    border-left: 5px solid #a9444a;
+}
